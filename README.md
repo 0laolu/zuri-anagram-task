@@ -10,14 +10,14 @@ To check the version of your Python Programming Language, run the following comm
 `python --version`
 
 Start with the following instructions
-- Clone the repository to your local machine and change directory into the folder <br />
-`git clone https://github.com/0laolu/zuri-anagram-task.git`
-- Open your terminal and check you have Python installed. To check, run the following command <br />
-`python --version`
-- Once Python is installed, run <br />
-`python main.py`
+- Clone the repository to your local machine and change directory into the folder 
+```js
+  git clone https://github.com/0laolu/zuri-anagram-task.git
+```
+- Open your terminal and check you have Python installed. To check, run `python --version`
+- Once Python is installed, run `python main.py`
 - Enter the first word you would like to compare (the anagram) 
 - Enter the second word you would like to compare with the first
 returns `True` if both words have identical letters <br />
 returns `False` if both words do not have identical letters <br />
-returns `Invalid innput` if both words are not of the same length <br />
+returns `Invalid input` if both words are not of the same length <br />
